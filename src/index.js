@@ -1,4 +1,4 @@
-export default class WxEmotions {
+class WxEmotions {
   constructor (
     emotionsBaseUrl = 'https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/'
   ) {
@@ -176,3 +176,4 @@ export default class WxEmotions {
     return this.idToTextMap().get(id)
   }
 }
+module.exports = WxEmotions
