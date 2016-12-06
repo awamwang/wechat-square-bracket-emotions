@@ -20,6 +20,10 @@ We.parse('你好[微笑]') // "你好<img src="https://res.wx.qq.com/mpres/htmle
 We.textToImage('微笑') // "<img src="https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/0.gif" alt="[微笑]">"
 ```
 
+# params
+
++ `emotionsBaseUrl` 如果传入该值，则使用自定义路径中的gif图片（0.gif - 104.gif）
+
 # properties
 
 + `textToIdMap` getter

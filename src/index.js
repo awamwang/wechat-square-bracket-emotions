@@ -3,7 +3,7 @@ class WxEmotions {
     emotionsBaseUrl = 'https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/'
   ) {
     this.emotionsBaseUrl = emotionsBaseUrl
-    this.emotionsCount = 104
+    this.emotionsCount = 105
     this.emotions = {
       '0': '微笑',
       '1': '撇嘴',
