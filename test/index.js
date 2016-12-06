@@ -1,0 +1,2 @@
+require('./parse')
+require('./textToImage')
