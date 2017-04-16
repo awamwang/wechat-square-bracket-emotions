@@ -51,5 +51,5 @@ interface configInterface {
 建议使用npm提供的[Try it out](https://runkit.com/npm/wechat-square-bracket-emotions)功能進行试用(需选用node 6)
 
 # release
-0.1.0 更新（更正）依赖；添加中文关键字
-1.0.0 修复部分bug；使用typescript重写src代码
++ 0.1.0 更新（更正）依赖；添加中文关键字
++ 1.0.0 修复部分bug；使用typescript重写src代码
