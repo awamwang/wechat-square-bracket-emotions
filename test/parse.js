@@ -1,4 +1,5 @@
-var WxEmotions = require("../dist/index")
-var We = new WxEmotions()
+const { WxEmotions } = require("../dist/index")
+
 // 解析段落
-console.log(We.parse('你好[微笑]')) // "你好<img src="https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/0.gif" alt = "['微笑']">"
+const WE = new WxEmotions()
+console.log(WE.parse('你好[微笑]')) // "你好<img src="https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/0.gif" alt="['微笑']">"
