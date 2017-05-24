@@ -26,7 +26,7 @@ We.parse('你好[微笑]') // "你好<img src="https://res.wx.qq.com/mpres/htmle
 We.textToImage('微笑') // "<img src="https://res.wx.qq.com/mpres/htmledition/images/icon/emotion/0.gif" alt="[微笑]">"
 ```
 
-# use
+# Usage
 
 ## params
 
@@ -58,7 +58,7 @@ interface configInterface {
 
 建议使用npm提供的[Try it out](https://runkit.com/npm/wechat-square-bracket-emotions)功能進行试用(需选用node 6)
 
-# develop
+# Contribution
 
 ## dev
 
