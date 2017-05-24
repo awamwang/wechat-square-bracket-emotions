@@ -1,6 +1,6 @@
 {
   "name": "wechat-square-bracket-emotions",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "handle wechat [xx] emotions",
   "main": "./dist/index.js",
   "scripts": {
