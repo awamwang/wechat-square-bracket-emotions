@@ -71,3 +71,4 @@ npm (run) test
 # release
 + 0.1.0 更新（更正）依赖；添加中文关键字
 + 1.0.0 修复部分bug；使用typescript重写src代码
++ 1.0.4 完善打包配置

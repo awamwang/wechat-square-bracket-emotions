@@ -148,7 +148,7 @@ export class WxEmotions {
   public get textToIdMap (): Map<string, number> {
     let map = new Map()
     this.emotionsIds.forEach((id) => {
-      map.set(EMOTIONS_MAP[ id ], id)
+      map.set(EMOTIONS_MAP[id], id)
     })
     return map
   }
@@ -156,7 +156,7 @@ export class WxEmotions {
   public get idToTextMap () {
     let map = new Map()
     this.emotionsIds.forEach((id) => {
-      map.set(id, EMOTIONS_MAP[ id ])
+      map.set(id, EMOTIONS_MAP[id])
     })
     return map
   }
@@ -202,7 +202,7 @@ export class WxEmotions {
 
     if (WxEmotions.hasEmotionsPattern(message)) {
       this.emotionsIds.forEach((id) => {
-        let emotionText = EMOTIONS_MAP[ id ]
+        let emotionText = EMOTIONS_MAP[id]
         let regex = new RegExp('\\[' + emotionText + '\\]', 'g')
         let replacement = `<img src="${this.configValue.emotionsBaseUrl}${id}.gif" alt="['${emotionText}']">`
         message = message.replace(regex, replacement)
